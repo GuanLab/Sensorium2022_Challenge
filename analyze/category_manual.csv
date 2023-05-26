@@ -1,0 +1,101 @@
+trial_ids,inferred_category,manual_category,general_category
+104,"kite, little blue heron, macaw",Bird-like,Animals
+128,"three-toed sloth, flagpole, capuchin",Unclear,Unclear
+183,"amphibian, tank, fire engine",Car,Man-made
+355,"tusker, Indian elephant, African elephant",Elephent,Animals
+479,"Appenzeller, EntleBucher, Greater Swiss Mountain dog","Human, dog","Human, Animals"
+483,"hog, wild boar, black-footed ferret","Human, pig","Human, Animals"
+656,"puffer, eel, electric ray",Fish,Animals
+803,"lesser panda, polecat, weasel",Red panda,Animals
+830,"curly-coated retriever, Irish water spaniel, Sussex spaniel",Dog,Animals
+936,"house finch, brambling, junco",Bird-like,Animals
+1201,"lorikeet, acorn, brambling",Bird-like,Animals
+1494,"ostrich, mink, mousetrap",Ostrich,Animals
+1596,"koala, wombat, indri",Koala,Animals
+1652,"great grey owl, grey fox, Arctic fox",Bird-like,Animals
+1656,"fire engine, tow truck, ambulance",Car,Man-made
+1682,"ballpoint, fountain pen, letter opener",Pen,Man-made
+1731,"prairie chicken, black grouse, partridge",Bird-like,Animals
+1756,"Irish wolfhound, Scottish deerhound, cairn",Dog,Animals
+1796,"hare, wood rabbit, Angora",Rabbit,Animals
+2005,"German short-haired pointer, vizsla, bluetick","Human, dog","Human, Animals"
+2008,"kuvasz, Old English sheepdog, English setter","Human, dog","Human, Animals"
+2014,"bittern, patas, bustard",Unclear,Unclear
+2159,"great grey owl, fox squirrel, ruffed grouse",Unclear,Unclear
+2214,"beagle, basset, Weimaraner",Dog,Animals
+2389,"Sussex spaniel, clumber, cocker spaniel",Dog,Animals
+2586,"sea urchin, peacock, sea anemone",Urchin,Animals
+2710,"Tibetan mastiff, Tibetan terrier, malamute","Human, dog","Human, Animals"
+2746,"goblet, hammer, maraca",Wood bar,Man-made
+2747,"hamster, broccoli, corn",Mouse,Animals
+2803,"fountain pen, ballpoint, screwdriver",Pen,Man-made
+2816,"night snake, hognose snake, sidewinder",Snake,Animals
+2825,"American chameleon, green lizard, agama",Chameleon,Animals
+2954,"anemone fish, sea anemone, coral reef",Fish,Animals
+3018,"gibbon, macaque, marmoset",Monkey,Animals
+3107,"tobacco shop, bookshop, confectionery",Shop,Man-made
+3144,"Pomeranian, chow, schipperke",Dog,Animals
+3163,"parallel bars, ballpoint, drumstick",Hammer,Man-made
+3372,"Eskimo dog, dogsled, malamute","Human, dog","Human, Animals"
+3427,"weevil, ground beetle, leaf beetle",Insects,Animals
+3438,"cocker spaniel, flat-coated retriever, Newfoundland",Dog,Animals
+3487,"digital watch, reflex camera, hand-held computer",Clock and watch,Man-made
+3507,"boxer, bull mastiff, American Staffordshire terrier",Dog,Animals
+3562,"red-breasted merganser, water ouzel, goose",Bird-like,Animals
+3702,"house finch, brambling, indigo bunting",Bird-like,Animals
+3847,"combination lock, padlock, analog clock",Keys,Man-made
+3924,"echidna, porcupine, platypus",Unclear,Unclear
+4231,"bonnet, sweatshirt, wool",Human,Human
+4295,"chain mail, cuirass, breastplate",Human,Human
+4373,"barrel, rain barrel, sturgeon",Barrel,Man-made
+4397,"bow tie, oboe, suit",Human,Human
+4400,"bustard, prairie chicken, black grouse",Bird-like,Animals
+4430,"titi, squirrel monkey, patas",Monkey,Animals
+4594,"macaque, patas, guenon",Monkey,Animals
+4619,"dowitcher, redshank, red-backed sandpiper",Bird-like,Animals
+4667,"barometer, stopwatch, analog clock",Clock and watch,Man-made
+4674,"Siamese cat, pug, giant panda",Dog,Animals
+4717,"fountain, monastery, drilling platform",Buildings,Man-made
+4739,"bull mastiff, French bulldog, boxer",Dog,Animals
+4782,"Great Pyrenees, kuvasz, Samoyed",Dog,Animals
+4812,"red-breasted merganser, albatross, goose",Bird-like,Animals
+4814,"three-toed sloth, howler monkey, spider monkey",Unclear,Unclear
+4821,"chiton, conch, hen-of-the-woods",Unclear,Unclear
+4923,"spiny lobster, crayfish, American lobster",Lobster,Animals
+4953,"American alligator, terrapin, African crocodile",crocodile,Animals
+5034,"car mirror, chain, padlock",Mirror,Man-made
+5128,"white stork, black stork, spoonbill",Bird-like,Animals
+5166,"chiffonier, wardrobe, file",Cabinet,Man-made
+5225,"skunk, polecat, badger",Skunk,Animals
+5264,"West Highland white terrier, Scotch terrier, Sealyham terrier","Human, dog","Human, Animals"
+5288,"beer bottle, wine bottle, whiskey jug",Wine,Man-made
+5322,"coho, barracouta, sturgeon","Human, fish","Human, Animals"
+5334,"garter snake, thunder snake, sidewinder",Snake,Animals
+5399,"sea anemone, anemone fish, coral reef",Fish,Animals
+5402,"Great Pyrenees, kuvasz, Samoyed","Human, dog","Human, Animals"
+5504,"skunk, polecat, balance beam",Skunk,Animals
+5640,"cheetah, leopard, jaguar",Leopard,Animals
+5671,"car mirror, zebra, dam",Mirror,Man-made
+5679,"hand-held computer, space bar, desktop computer",Computer,Man-made
+5754,"beacon, picket fence, water tower",Buildings,Man-made
+5782,"starfish, brain coral, chiton",Starfish,Animals
+6013,"macaw, plastic bag, African grey",Bird-like,Animals
+6034,"passenger car, electric locomotive, steam locomotive",Train,Man-made
+6066,"chow, clumber, Great Pyrenees",Dog,Animals
+6082,"diaper, trench coat, knee pad",Bag,Man-made
+6205,"pole, seashore, steel arch bridge",Unclear,Unclear
+6238,"borzoi, Afghan hound, otterhound",Dog,Animals
+6248,"leatherback turtle, hermit crab, dung beetle",Unclear,Unclear
+6490,"boathouse, dock, lakeside","Bridge, boat",Man-made
+6562,"cowboy boot, drum, steel drum",Human,Human
+6773,"basketball, volleyball, knee pad",Human,Human
+6790,"balloon, mountain tent, parachute",Ballon,Man-made
+6831,"weasel, platypus, black-footed ferret",Weasel,Animals
+6886,"ringlet, sulphur butterfly, lycaenid",Insects,Animals
+7017,"garter snake, thunder snake, night snake",Snake,Animals
+7028,"puffer, buckeye, porcupine",Fish,Animals
+7107,"bittern, ruddy turnstone, European gallinule",Bird-like,Animals
+7119,"king crab, American lobster, spiny lobster",Food,Man-made
+7120,"peacock, prairie chicken, cock",Bird-like,Animals
+7154,"squirrel monkey, titi, patas",Monkey,Animals
+7495,"damselfly, dragonfly, grasshopper",Insects,Animals
