@@ -36,11 +36,11 @@ Install the data under `dataset` directory: **[https://gin.g-node.org/cajal/Sens
 
 ## Build the model on the challenge data
 
-##### Data pre-processing
+#### Data pre-processing
 
 After downloading and unzipping the challenge data, follow the scripts in `0_process_data.ipynb` to label the bounding boxes and generate different train-validation splits for ensemble. The `yolov5l.pt` is the official pretrained weights downloaded [here](https://github.com/ultralytics/yolov5/releases/download/v7.0/yolov5l.pt), and the `yolo-finetune.pt` is our fine-tuned weights on [ILSVRC2017](https://www.kaggle.com/c/imagenet-object-localization-challenge).
 
-##### Train and evaluate model
+#### Train and evaluate model
 
 Follow the scripts in `sensorium/1_train_evaluate_submit.ipynb`, you will be able to train and evaluate the model on the challenge data, and repeat the performance reported in our paper.
 
@@ -61,6 +61,12 @@ Follow the scripts in `sensorium/1_train_evaluate_submit.ipynb`, you will be abl
    CUDA_VISIBLE_DEVICES=0 python submit.py
    ```
 
-##### Analyze the predictions (optional)
+#### Analyze the predictions (optional)
 
 We provide the scripts in `analyze` to repeat our results and some of the figures in the paper. They include extracting the image properties (complexity, brightness, contrast) `inspect_model_with_image.ipynb` and analyzing the spatial properties `grid_experiment.ipynb`
+
+## Reference
+
+[https://github.com/sinzlab/neuralpredictors](https://github.com/sinzlab/neuralpredictors)
+
+[https://github.com/sinzlab/sensorium](https://github.com/sinzlab/sensorium)
