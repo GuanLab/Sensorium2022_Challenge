@@ -34,6 +34,8 @@ git clone https://github.com/ultralytics/yolov5.git
 
 Install the data under `dataset` directory: **[https://gin.g-node.org/cajal/Sensorium2022](https://gin.g-node.org/cajal/Sensorium2022)**
 
+The pretrained weights can be retrieved from **[google drive](https://gin.g-node.org/cajal/Sensorium2022)**. Save them under the `model_checkpoints` folder
+
 ## Build the model on the challenge data
 
 #### Data pre-processing
@@ -54,6 +56,9 @@ Follow the scripts in `sensorium/1_train_evaluate_submit.ipynb`, you will be abl
 
    ```bash
    CUDA_VISIBLE_DEVICES=0 python predict.py
+
+   # get the performance for each neuron
+   CUDA_VISIBLE_DEVICES=0 python predict_per_neuron.py 10
    ```
 3. Generate the predictions and corresponding responses (the ground-truths) for analyzing
 

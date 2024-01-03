@@ -229,9 +229,9 @@ def plot_average_neuron_corr_distance(corr_matrix, figsize, remove,
     ax.fill_between(x_smooth, y_smooth_q1, y_smooth_q2, color = "g", alpha = .3)
     
     ax.set_title(f"{title} (r = {round(corr_score[0], 4)})", fontsize=18)
-    ax.set_xlabel(xlabel, fontsize=18)
-    ax.set_ylabel(ylabel, fontsize=18)
-    ax.tick_params(labelsize=16)
+    ax.set_xlabel(xlabel, fontsize=20)
+    ax.set_ylabel(ylabel, fontsize=20)
+    ax.tick_params(labelsize=18)
     
     if ylim is not None:
         ax.set_ylim(*ylim)
