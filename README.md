@@ -18,12 +18,8 @@ Git clone a copy of code:
 git clone https://github.com/GuanLab/Sensorium2022_Challenge.git
 ```
 
-Setup the running environment through conda
-
-```bash
-conda create env -f environment.yml
-conda activate sensorium
-```
+Setup the running environment through conda/mamba
+We provided the commands line-by-line in `setup_environment.sh` for creating the running environments
 
 Install the YOLOv5
 
@@ -34,7 +30,7 @@ git clone https://github.com/ultralytics/yolov5.git
 
 Install the data under `dataset` directory: **[https://gin.g-node.org/cajal/Sensorium2022](https://gin.g-node.org/cajal/Sensorium2022)**
 
-The pretrained weights can be retrieved from **[google drive](https://gin.g-node.org/cajal/Sensorium2022)**. Save them under the `model_checkpoints` folder
+The pretrained weights can be retrieved from **[google drive](https://drive.google.com/drive/folders/1hJH21PAg7ljI1B_FF-psoxZn2d-D9kKM?usp=sharing)**. Save them under the `sensorium/model_checkpoints` folder
 
 ## Build the model on the challenge data
 
@@ -57,8 +53,9 @@ Follow the scripts in `sensorium/1_train_evaluate_submit.ipynb`, you will be abl
    ```bash
    CUDA_VISIBLE_DEVICES=0 python predict.py
 
-   # get the performance for each neuron
-   CUDA_VISIBLE_DEVICES=0 python predict_per_neuron.py 10
+   # get the performance for each neuron from N models
+   # for example: ensemble from 5 models
+   CUDA_VISIBLE_DEVICES=0 python predict_per_neuron.py 5 
    ```
 3. Generate the predictions and corresponding responses (the ground-truths) for analyzing
 
@@ -68,7 +65,7 @@ Follow the scripts in `sensorium/1_train_evaluate_submit.ipynb`, you will be abl
 
 #### Analyze the predictions (optional)
 
-We provide the scripts in `analyze` to repeat our results and some of the figures in the paper. They include extracting the image properties (complexity, brightness, contrast) `inspect_model_with_image.ipynb` and analyzing the spatial properties `grid_experiment.ipynb`
+We provide the scripts in `analyze` to repeat our results and some of the figures in the paper. They include extracting the image properties (complexity, brightness, contrast) `inspect_model_with_image.ipynb`, analyzing the spatial properties `grid_experiment.ipynb`, estimate the artificial receptive fields (aRFs) `estimate_aRF.py` and plot `plot_aRF.ipynb`, and visualize the retinotopic maps `retinotopic_map.ipynb`
 
 ## Reference
 

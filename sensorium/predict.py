@@ -76,7 +76,7 @@ for data_key, filename in zip(data_keys, filenames):
                                         tier="test")
     ground_truth_file = './ground_truth_file_test.csv'
     submission_file = './submission_file_live_test.csv'
-    out = evaluate(submission_file, ground_truth_file)
+    out = evaluate(submission_file, ground_truth_file, per_neuron=False)
     
     single_corr.write(f"{data_key}: {out['Single Trial Correlation']:.6f}\n")
     corr_to_avg.write(f"{data_key}: {out['Correlation to Average']:.6f}\n")

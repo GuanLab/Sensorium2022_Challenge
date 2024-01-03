@@ -76,7 +76,7 @@ for filename in filenames:
                                         tier="test")
     ground_truth_file = './ground_truth_file_test.csv'
     submission_file = './submission_file_live_test.csv'
-    out = evaluate(submission_file, ground_truth_file, per_neuron=False)
+    out = evaluate(submission_file, ground_truth_file, per_neuron=True)
     performances[data_key] = out
     
 with open(f"performances_per_neuron.{model_n}.pkl", "wb") as f:
