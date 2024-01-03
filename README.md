@@ -12,16 +12,16 @@ Overview of the methods
 
 ## Installations
 
-Git clone a copy of code:
+#### Git clone a copy of code:
 
 ```bash
 git clone https://github.com/GuanLab/Sensorium2022_Challenge.git
 ```
 
-Setup the running environment through conda/mamba  
+#### Setup the running environment through conda/mamba  
 We provided the commands line-by-line in `setup_environment.sh` for creating the running environments
 
-Install the YOLOv5
+#### Install the YOLOv5
 
 ```bash
 # you may need to ensure the directory name is "yolov5"
