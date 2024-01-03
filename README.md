@@ -18,7 +18,7 @@ Git clone a copy of code:
 git clone https://github.com/GuanLab/Sensorium2022_Challenge.git
 ```
 
-Setup the running environment through conda/mamba
+Setup the running environment through conda/mamba  
 We provided the commands line-by-line in `setup_environment.sh` for creating the running environments
 
 Install the YOLOv5
@@ -72,3 +72,5 @@ We provide the scripts in `analyze` to repeat our results and some of the figure
 [https://github.com/sinzlab/neuralpredictors](https://github.com/sinzlab/neuralpredictors)
 
 [https://github.com/sinzlab/sensorium](https://github.com/sinzlab/sensorium)
+
+[https://github.com/bryanlimy/V1T](https://github.com/bryanlimy/V1T)
